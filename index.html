@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do App</title>
+    <link rel="stylesheet" href="todoapp.css"/>
+</head>
+<body>
+    <div class="container">
+        <div class="taskmanager">
+            <div id="titel"> 
+                To Do list
+            </div>
+        </div>
+        <div class="task-input">
+            <input type="text" id="task-name" placeholder="Task Name">
+            <input type="datetime-local" id="task-date">
+            <button id="add-task">Add Task</button>
+        </div>
+        <div id="tasks">
+            <p id="pending-tasks">
+                You have <span class="count-value">0</span> task (s) to complete.
+            </p>
+        </div>
+        <ol id="task-list"></ol>
+    </div>
+    <script src="todoapp.js"></script>
+</body>
+</html>
